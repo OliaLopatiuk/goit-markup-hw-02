@@ -23,18 +23,18 @@ body {
   color: var(--text-color);
 }
 
-ul {
-  list-style: none;
+.link: {
+  text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.list {
+  list-style: none;
 }
 
 /* Header */
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -82,7 +82,7 @@ a {
   background-color: var(--dark-background-color);
 }
 
-.hero h1 {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -92,6 +92,7 @@ a {
 }
 
 .main-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -142,6 +143,9 @@ a {
   color: var(--dark-background-color);
 }
 
+.employee-card {
+  background-color: var(--main-background-color);
+}
 .employee {
   font-weight: 500;
   font-size: 20px;
